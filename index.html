@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Duplicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Word-Duplicator</h1>
+    </div>
+    <p>Insert word to duplicate here:</p>
+    <input type="text" name="input" id="input">
+    <br><br>
+    <label for="num">How many characters?</label>
+    <input type="number" id="num" min=1 max=1000>
+    <input type="submit" id="submit" value="Submit">
+    <br>
+    <div>
+        <input type="checkbox" id="checkspace" value="space">
+        <label for="space">Add spaces in between</label>
+        <input type="checkbox" id="checkcomma" value="comma">
+        <label for="comma">Add commas in between</label>
+    </div><br>
+    <textarea id="output" name="output" rows="10" cols="150">Text will appear here
+    </textarea>
+    <input type="button" value="Copy" id="copy">
+    <p id="charCount">Character count: </p>
+    <script src="script.js"></script>
+</body>
+</html>
