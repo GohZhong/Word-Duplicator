@@ -13,7 +13,7 @@ let checkpoint = () =>{
         stringMultiplier(checkSpace(),checkComma());
     }
     else{
-        alert("Number given is not within 1 and 1000");
+        alert("Number given is not within 1 and 10000");
     }
 }
 
